@@ -66,6 +66,10 @@ body{
     right: 0;
 
 }
+.input{
+    position: center;
+    padding-left: 20%;
+}
 #hero h2{
     color: black;
     margin-bottom: 30px;
@@ -106,6 +110,7 @@ body{
     animation-delay: 0.5s;
     border: 2px solid #bca8e0;
 }
+
 #hero .hero-btn:hover{
     background: #d43c18;
     color: white;
@@ -201,17 +206,17 @@ body{
 End of About Us---*/
 /*[ Table ]*/
 form{
-    margin-top: 30px;
+    margin-top: 5%;
     background: white;
-    padding: 10px 14px;
-    position: relative;
     border-radius: 4;
+    align-items:  left;
+    padding-left: 20%;
 }
 form input[type="text"]{
     border: 4px;
     font-size: 20px;
     padding: 2px;
-    width: calc(100%-110px);
+    width: 100% !important;
     background: white;
     color: black;
     border-radius: 3px 3px 3px 3px;
@@ -231,7 +236,7 @@ form input[type="submit"]{
     box-shadow: 0 0px 30px 0px rgba(0, 0, 0, 0.15);
 }
 .limiter {
-  width: 1100px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -690,31 +695,30 @@ h3{
 /* Table */
 #Input_name {
      /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
+    /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 20%; /* Full-width */
+    width: 30%; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
      /* Add some space below the input */
     position: relative;
-    left : 200px;
-    margin-left: 10px;
+    margin-left: 2%;
     
   }
 
   #Input_location{
      /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
+    /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 20%; /* Full-width */
+    width: 30%; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
      /* Add some space below the input */
     position: relative;
-    left : 200px;
-    margin-left: 10px;
+    margin-left: 2%;
+
     
   }
 
